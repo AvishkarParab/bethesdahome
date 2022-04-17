@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+.navbar{
+    z-index: 11;
+    position: fixed;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.475);
+}
+.navbar div a{
+    color: rgb(255, 255, 255);
+}
+
+.navbar div a:hover{
+    transition: .3s all ease-in-out;
+    color: rgb(9, 222, 255);
+}
+.navbar-toggler{
+    background-color: rgba(0, 255, 255, 0.718);
+}
+.navbar-toggler-icon{
+    color: black !important;
+}
+.active{
+    color: white !important;
+    border-bottom: 1px solid cyan;
+}
+.navbar ul li a{
+    margin: 5px;
+    letter-spacing: 1px;
+    color: rgb(0, 255, 242);
+}
+.navbar ul li a:hover{
+    transition: .3s all ease;
+    color: white;
+    border-bottom: 1px solid cyan;
+}
+#home{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+}
+#home address{
+    text-align:justify;
+    position: absolute;
+    bottom: 10px;
+    left: 40%;
+}
+.text{
+    padding: 10px;
+    height: 200px;
+    border: 1px solid black;
+}
+#about{
+    height: 100vh;
+    border: 1px solid red;
+}
+#about h1{
+    margin-top: 20px;
+}
+/* #donate,#gallery,#contact{
+    height: 100vh;
+    border: 1px solid red;
+} */
+#gallery{
+    min-height: 100vh;
+}
+.img_cont{
+    height: 300px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+}
+.img_cont img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: 2px 3px 2px black;
+    
+}
+#contact{
+    border: 1px solid red;
+    height: 100vh;
+}
+.contact_detail .holder{
+    background: linear-gradient(to right,rgb(6, 2, 54),rgb(4, 1, 43));
+    backdrop-filter: blur(10px);
+    border-radius: 25px;
+    width: 600px;
+    padding: 20px;
+    border: 1.5px solid cyan;
+    box-shadow: 3px 5px 3px 6px rgba(0, 0, 0, 0.575);
+}
+
+.contact_detail input,.contact_detail textarea{
+    width: 100%;
+    background: transparent;
+    /* border: 1px solid rgb(251, 254, 255); */
+    border: none;
+    border-bottom: 1px solid rgb(251, 254, 255);;
+    padding-left: 10px;
+    padding-top: 2px;
+    color: cyan;
+    border-radius: 2px;
+}
+.contact_detail input::placeholder,.contact_detail textarea::placeholder{
+    color: cyan;
+    font-weight: bolder;
+    opacity: 0.5;
+}
+.contact_detail input{
+    height: 40px;
+}
+
+footer{
+    /* height: 100px; */
+}
+footer div h6{
+
+   text-align: center;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: black;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(6, 245, 253);
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    transition: 1s background-color ease;
+    background-color: rgb(0, 140, 255);
+  }
