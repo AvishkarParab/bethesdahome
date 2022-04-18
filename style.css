@@ -67,6 +67,11 @@ html{
 #about h1{
     margin-top: 20px;
 }
+.abt_cont{
+display: grid;    
+place-content: center;
+
+}
 .mission{
     background-color: rgba(240, 37, 37, 0.81);
     color: white;
@@ -77,6 +82,7 @@ html{
 .mission_p, .vision_p{
     text-align: center;
     width: 400px;
+    font-size: 18px;
     border: 1px solid red;
 }
 .vision{
