@@ -12,6 +12,15 @@ html{
     width: 100%;
     background-color: rgba(0, 0, 0, 0.475);
 }
+.button{
+    border: solid 2px beige;
+    background-color: blue;
+    color: aliceblue;
+    text-decoration: none;
+    padding: 5px 15px;
+    border-radius: 20%;
+    box-shadow: 8px 10px 10px 1px rgba(0,0,0,0.5);
+}
 .navbar div a{
     color: rgb(255, 255, 255);
 }
